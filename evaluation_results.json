@@ -1,0 +1,54 @@
+{
+  "num_texts": 4,
+  "successful_analyses": 4,
+  "individual_results": [
+    {
+      "text": "I love this movie! The acting was fantastic and the plot was engaging.",
+      "methods": [
+        "attention_trajectory",
+        "attention_rollout"
+      ],
+      "num_tokens": 17,
+      "stability": {
+        "mean_token_variance": "0.009569016",
+        "max_token_variance": "0.09191241"
+      }
+    },
+    {
+      "text": "This product is terrible. Poor quality and overpriced.",
+      "methods": [
+        "attention_trajectory",
+        "attention_rollout"
+      ],
+      "num_tokens": 15,
+      "stability": {
+        "mean_token_variance": "0.011526061",
+        "max_token_variance": "0.102413565"
+      }
+    },
+    {
+      "text": "The research paper presents interesting findings about neural networks.",
+      "methods": [
+        "attention_trajectory",
+        "attention_rollout"
+      ],
+      "num_tokens": 12,
+      "stability": {
+        "mean_token_variance": "0.015405435",
+        "max_token_variance": "0.0983623"
+      }
+    },
+    {
+      "text": "Climate change poses significant challenges for future generations.",
+      "methods": [
+        "attention_trajectory",
+        "attention_rollout"
+      ],
+      "num_tokens": 11,
+      "stability": {
+        "mean_token_variance": "0.017939704",
+        "max_token_variance": "0.10244811"
+      }
+    }
+  ]
+}
